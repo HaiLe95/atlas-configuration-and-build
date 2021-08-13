@@ -51,7 +51,7 @@ Install Atlas.
   $ tar -xzvf distro/target/apache-atlas-${version}-server.tar.gz
   ```
   
-After finishing installization. There're will be new package named same like [apache-atlas-${version}] in my case it is [apache-atlas-3.0.0-SNAPSHOT].
+After finishing installization. There're will be new package named same like [apache-atlas-${version}] in distro module, in my case it is [apache-atlas-3.0.0-SNAPSHOT].
 This is main directory we're working on. 
 
 Let's start a server.
@@ -60,5 +60,5 @@ Let's start a server.
   $ python distro/apache-atlas-${version}/bin/atlas_start.py
   ```
   
-URL
+WEB UI:
   http://localhost:21000
