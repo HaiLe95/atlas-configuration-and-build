@@ -47,8 +47,8 @@ Those files are needed to be unpacked.
 Install Atlas.
   
   ```
-  $ tar -xzvf apache-atlas-${version}-bin.tar.gz
-  $ tar -xzvf apache-atlas-${version}-server.tar.gz
+  $ tar -xzvf distro/target/apache-atlas-${version}-bin.tar.gz
+  $ tar -xzvf distro/target/apache-atlas-${version}-server.tar.gz
   ```
   
 After finishing installization. There're will be new package named same like [apache-atlas-${version}] in my case it is [apache-atlas-3.0.0-SNAPSHOT].
