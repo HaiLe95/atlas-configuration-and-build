@@ -11,10 +11,11 @@ Git
 ## Build and Installation
 
 Chose directory.
-
-  $ cd <your-local-directory>
+  ``
+  $ cd <your-local-directory>  
   $ git clone https://github.com/apache/atlas.git
   $ cd atlas
+  ``
   
 Checkout the branch or tag you would like to build.
   
