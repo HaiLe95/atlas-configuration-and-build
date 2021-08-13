@@ -14,9 +14,7 @@ Chose directory.
 
   ```
   $ cd <your-local-directory>  
-  
   $ git clone https://github.com/apache/atlas.git
-  
   $ cd atlas
   ```
   
