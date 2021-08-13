@@ -52,7 +52,7 @@ Install Atlas.
   ```
   
 After finishing installization. There're will be new package named same like [apache-atlas-${version}] in distro module, in my case it is [apache-atlas-3.0.0-SNAPSHOT].
-This is main directory we're working on. 
+This is main directory we're working on. All configurations are there too.
 
 Let's start a server.
   
