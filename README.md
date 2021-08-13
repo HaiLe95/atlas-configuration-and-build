@@ -62,3 +62,7 @@ Let's start a server.
   
 WEB UI:
   http://localhost:21000
+
+Apache Atlas using REST API to manipulate data.
+More info down below:
+http://atlas.apache.org/api/v2/index.html
