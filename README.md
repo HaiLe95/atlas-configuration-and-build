@@ -1,5 +1,5 @@
 # atlas-configuration-and-build
-Some documentation about how to build and how to configuration apache atlas.
+Some documentation about how to build and how to configurate apache atlas.
 
 
 ## Requirements
