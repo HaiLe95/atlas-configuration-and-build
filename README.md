@@ -52,9 +52,9 @@ Install Atlas.
   ```
   
 After finishing installization. There're will be new package named same like [apache-atlas-${version}] in distro module, in my case it is [apache-atlas-3.0.0-SNAPSHOT].
-This is main directory we're working on. All configurations are there too.
+This is main directory we're working on. 
 
-Let's start a server.
+## Start Atlas
   
   ```
   $ python distro/apache-atlas-${version}/bin/atlas_start.py
@@ -62,7 +62,9 @@ Let's start a server.
   
 WEB UI:
   http://localhost:21000
-
+  
+Atlas have simple form to manage access to data and it is based on <b>atlas-simple-authz-policy.json</b> configuration file with <b>users-credentials.properties</b> file that defines users.
+  
 Apache Atlas using REST API to manipulate data.
 
 More info down below:
