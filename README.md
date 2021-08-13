@@ -4,8 +4,11 @@ Some documentation about how to build and how to configuration apache atlas.
 
 ## Requirements
 JDK 8+
+
 Python 2.7+
+
 Maven 3.X
+
 Git
 
 ## Build and Installation
