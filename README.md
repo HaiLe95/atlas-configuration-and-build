@@ -67,4 +67,6 @@ Apache Atlas using REST API to manipulate data.
 
 More info down below:
 
-http://atlas.apache.org/api/v2/index.html
+Apache Atlas docs: https://atlas.apache.org/#/
+
+REST API docs: http://atlas.apache.org/api/v2/index.html
