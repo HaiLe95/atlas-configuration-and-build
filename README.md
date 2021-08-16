@@ -69,7 +69,7 @@ http://localhost:21000
 
 ## Configurations
 
-Atlas have simple form to manage data access that based on two files.
+Atlas have simple form to manage data access that based on two files in ``conf`` directory.
 
 The first one:
 ``atlas-simple-authz-policy.json``
