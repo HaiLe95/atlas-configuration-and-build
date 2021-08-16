@@ -79,7 +79,7 @@ The second one:
 ``users-credentials.properties``
 stores users logins and passwords. Password is encrypted with SHA256. 
 
-####More docs down below:
+#### More docs down below:
 
 Apache Atlas docs: https://atlas.apache.org/#/
 
