@@ -77,7 +77,7 @@ This is default way to add data to base. Although it's better for you to configu
 
 ## Configurations
 
-Atlas have simple form to manage data access that based on two files.
+Atlas have simple form to manage data access that based on two files in ``distro/apache-atlas-${version}/conf`` directory.
 
 The first one:
 ``atlas-simple-authz-policy.json``
