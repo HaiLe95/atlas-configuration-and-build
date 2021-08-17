@@ -69,7 +69,7 @@ http://localhost:21000
 Or work through REST API like:
 
 ```
-$ curl -v -u admin:admin -X POST -H "Content-Type:application/json" -d '{"entity":{"typeName":"rdbms_table","attributes ":{"qualifiedName":"fyb.haha@192.168.2.11@mysql","createdBy":"root","name":"haha","comment":"rdbms_table API insert test","description": "rdbms_table manual input","owner":"root","type":"table","contact_info":"table_01_info","db":{"guid":"036b0662-cdb9-40ac-9ce5-d68d3670ab99" ,"typeName":"rdbms_db"}}}}' "http://localhost:21000/api/atlas/v2/entity"
+$ curl -v -u admin:admin -X POST -H "Content-Type:application/json" -d '{  "entity": {    "attributes": {      "owner": "admin",      "ownerName": "admin",      "name": "mysql instance",      "qualifiedName": "mysql_instance@ cluster_test2",      "rdbms_type": "mysql",      "description": "mysql instance description",      "contact_info": "your contact info",      "platform": "Linux",      "hostname": "mysql.hostname.com",      "protocol": "mysql protocal",      "port": "3306"    },    "typeName": "rdbms_instance",    "status": "ACTIVE"  }}' "http://localhost:21000/api/atlas/v2/entity"
 ```
 
 This is default way to add data to base. Although it's better for you to configure access policy.
