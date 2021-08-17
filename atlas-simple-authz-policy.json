@@ -1,28 +1,32 @@
  {
   "roles": {
-    "CREATE_AND_CONFIGURE": {
+   "CREATE_AND_CONFIGURE": {
+      "typePermissions": [
+        {
+          "privileges":     [ ".*" ],
+          "typeCategories": [ ".*" ],
+          "typeNames":      [ ".*" ]
+        }
+      ],
       "entityPermissions": [
         {
-          "privileges": [
-            "entity-read", "entity-create",
+          "privileges":            [ "entity-read", "entity-create",
             "entity-read-classification",
             "entity-add-classification",
-            "entity-update-classification"],
-          "entityTypes":            [".*"],
-          "entityIds":              [".*"],
-          "entityClassifications":  [".*"],
-          "labels":                 [".*"],
-          "businessMetadata":       [".*"],
-          "attributes":             [".*"],
-          "classifications":        [".*"]
+            "entity-update-classification" ],
+          "entityTypes":           [ ".*" ],
+          "entityIds":             [ ".*" ],
+          "entityClassifications": [ ".*" ],
+          "labels":                [ ".*" ],
+          "businessMetadata":      [ ".*" ],
+          "attributes":            [ ".*" ],
+          "classifications":       [ ".*" ]
         }
       ],
       "relationshipPermissions": [
         {
-          "privileges": [ "add-relationship", 
-                          "update-relationship", 
-                          "remove-relationship" ],
-          "relationshipTypes":        [ ".*" ],
+          "privileges":     [ ".*" ],
+          "relationshipTypes": [ ".*" ],
           "end1EntityType":           [ ".*" ],
           "end1EntityId":             [ ".*" ],
           "end1EntityClassification": [ ".*" ],
