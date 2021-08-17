@@ -73,6 +73,7 @@ $ curl -v -u admin:admin -X POST -H "Content-Type:application/json" -d '{  "enti
 ```
 
 This is default way to add data to base. Although it's better for you to configure access policy.
+Apache Atlas using NoSQL HBase as default database to store metadata.
 
 
 ## Configurations
