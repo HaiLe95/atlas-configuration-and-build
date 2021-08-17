@@ -58,18 +58,26 @@ Install Atlas.
 After finishing unpacking atlas and atlas-server there will be new package named same like ``apache-atlas-${version}`` in distro module.
 This is the main directory we're working on.
 
-## Start Atlas
+## Start Atlas & Usage
 
   ```
   $ python apache-atlas-${version}/bin/atlas_start.py
   ```
-
-WEB UI:
+To manage data you can you use WEB UI:
 http://localhost:21000
+
+Or work through REST API like:
+
+```
+$ curl -v -u admin:admin -X POST -H "Content-Type:application/json" -d '{"entity":{"typeName":"rdbms_table","attributes ":{"qualifiedName":"fyb.haha@192.168.2.11@mysql","createdBy":"root","name":"haha","comment":"rdbms_table API insert test","description": "rdbms_table manual input","owner":"root","type":"table","contact_info":"table_01_info","db":{"guid":"036b0662-cdb9-40ac-9ce5-d68d3670ab99" ,"typeName":"rdbms_db"}}}}' "http://localhost:21000/api/atlas/v2/entity"
+```
+
+This is default way to add data to base. Although it's better for you to configure access policy.
+
 
 ## Configurations
 
-Atlas have simple form to manage data access that based on two files in ``conf`` directory.
+Atlas have simple form to manage data access that based on two files.
 
 The first one:
 ``atlas-simple-authz-policy.json``
@@ -79,7 +87,7 @@ The second one:
 ``users-credentials.properties``
 stores users logins and passwords. Password is encrypted with SHA256. 
 
-#### More docs down below:
+### More docs down below:
 
 Apache Atlas docs: https://atlas.apache.org/#/
 
