@@ -63,7 +63,7 @@ This is the main directory we're working on.
   ```
   $ python apache-atlas-${version}/bin/atlas_start.py
   ```
-To manage data you can you use WEB UI:
+To manage data you can use WEB UI:
 http://localhost:21000
 
 Or work through REST API like:
@@ -75,6 +75,10 @@ $ curl -v -u admin:admin -X POST -H "Content-Type:application/json" -d '{  "enti
 This is default way to add data to base. Although it's better for you to configure access policy.
 Apache Atlas using NoSQL HBase as default database to store metadata.
 
+To stop Apache Atlas:
+```
+$ python apache-atlas-${version}/bin/atlas_stop.py
+```
 
 ## Configurations
 
